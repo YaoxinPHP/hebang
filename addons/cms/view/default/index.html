@@ -1,0 +1,26 @@
+{layout name="common/layout" /}
+
+<script src="__ADDON__/static/js/jquery.superslide.2.1.1.js" type="text/javascript"></script>
+<div id="go-top"></div>
+<div class="pcks-don">
+    <ul class="gz-ys">
+        {foreach $banner as $v}
+        <li>
+            <a href="{$v['url']}" style="background-image: url({$v['image']});"></a>
+        </li>
+        {/foreach}
+    </ul>
+    <a class="prev" href="javascript:void(0)"></a>
+    <a class="next" href="javascript:void(0)"></a>
+</div>
+<script>
+    jQuery(".pcks-don").slide({
+        titCell: ".num ul",
+        mainCell: ".gz-ys",
+        effect: "left",
+        autoPlay: true,
+        delayTime: 700,
+        autoPage: true
+    });
+</script>
+

@@ -1,0 +1,18 @@
+[ 2018-05-31T09:19:48+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-05-31T09:19:48+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-05-31T09:19:48+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.016001s ]
+[ 2018-05-31T09:19:48+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-05-31T09:19:48+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=hebang;charset=utf8
+[ 2018-05-31T09:19:48+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'banner' [ RunTime:0.002001s ]
+[ 2018-05-31T09:19:48+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'he_banner' [ RunTime:0.004000s ]
+[ 2018-05-31T09:19:48+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'hebang' AND table_name = 'he_banner' ORDER BY ORDINAL_POSITION [ RunTime:0.009001s ]
+[ 2018-05-31T10:28:42+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-05-31T10:28:42+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-05-31T10:28:42+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007001s ]
+[ 2018-05-31T10:28:42+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-05-31T10:28:42+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.013000s ] mysql:host=127.0.0.1;dbname=hebang;charset=utf8
+[ 2018-05-31T10:28:42+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'banner' [ RunTime:0.002001s ]
+[ 2018-05-31T10:28:42+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'he_banner' [ RunTime:0.001000s ]
+[ 2018-05-31T10:28:42+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'hebang' AND table_name = 'he_banner' ORDER BY ORDINAL_POSITION [ RunTime:0.010001s ]
